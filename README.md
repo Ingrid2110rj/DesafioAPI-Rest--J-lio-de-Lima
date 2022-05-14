@@ -8,14 +8,15 @@ Para isso, utilize nossa API Rest para responder a 10 perguntas sobre o curso. C
 Para realizar a prova, use seu manipulador de APIs preferido: Postman, cURL, Insomnia ou RestAssured.
 
 Passo a passo:
+1. Baixe o arquivo Swagger da API Rest do CGITAR em cgitar.yml
+1. Acesse o Swagger Editor
+1. Clique em File, depois em Import File e escolha o arquivo cgitar.yml
+1. Crie um novo usuário na API do CGITAR através do seu manipulador de APIs Rest favorito
+1. Autentique-se na API do CGITAR
+1. Busque uma pergunta através do endpoint de GET /perguntas
+1. Responda a pergunta e repita essa operação até que complete 10 respostas
+1. Revise suas respostas através do endpoint GET respostas
+1. Altere suas respostas se for necessário através do PUT respostas/{respostaId}
+1. Submeta suas respostas e obtenha o percentual de acerto e o link de acesso ao seu certificado através do endpoint POST certificados}
 
-1.Baixe o arquivo Swagger da API Rest do CGITAR em cgitar.yml
-1.Acesse o Swagger Editor
-1.Clique em File, depois em Import File e escolha o arquivo cgitar.yml
-1.Crie um novo usuário na API do CGITAR através do seu manipulador de APIs Rest favorito
-1.Autentique-se na API do CGITAR
-1.Busque uma pergunta através do endpoint de GET /perguntas
-1.Responda a pergunta e repita essa operação até que complete 10 respostas
-1.Revise suas respostas através do endpoint GET respostas
-1.Altere suas respostas se for necessário através do PUT respostas/{respostaId}
-1.Submeta suas respostas e obtenha o percentual de acerto e o link de acesso ao seu certificado através do endpoint POST certificados
+
