@@ -1,0 +1,172 @@
+{
+	"info": {
+		"_postman_id": "d04cc115-3fe6-4863-ac38-419d2582e28d",
+		"name": "Desafio Júlio de Lima",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Novo Usuário",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": null
+			},
+			"response": []
+		},
+		{
+			"name": "Autentificar",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": null
+			},
+			"response": []
+		},
+		{
+			"name": "Perguntas",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "token",
+						"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c3VhcmlvaWQiOiI2MDYiLCJ1c3Vhcmlvbm9tZSI6IkluZ3JpZCBTYW50b3MiLCJ1c3VhcmlvZW1haWwiOiJpbmdyaWRmZXJyZWlyYTIxMTByakBnbWFpbC5jb20iLCJ1c3VhcmlvdGVsZWZvbmUiOiIyMTk5OTk5OTkifQ.7MdUH8udA5OWih9XgA-QrrtverRsj8dHjUVNmr6rcHQ",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "http://165.227.93.41/cgitar/perguntas",
+					"protocol": "http",
+					"host": [
+						"165",
+						"227",
+						"93",
+						"41"
+					],
+					"path": [
+						"cgitar",
+						"perguntas"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Resposta",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "token",
+						"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c3VhcmlvaWQiOiI2MDYiLCJ1c3Vhcmlvbm9tZSI6IkluZ3JpZCBTYW50b3MiLCJ1c3VhcmlvZW1haWwiOiJpbmdyaWRmZXJyZWlyYTIxMTByakBnbWFpbC5jb20iLCJ1c3VhcmlvdGVsZWZvbmUiOiIyMTk5OTk5OTkifQ.7MdUH8udA5OWih9XgA-QrrtverRsj8dHjUVNmr6rcHQ",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"apresentarPercentual\": true\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://165.227.93.41/cgitar/certificados",
+					"protocol": "http",
+					"host": [
+						"165",
+						"227",
+						"93",
+						"41"
+					],
+					"path": [
+						"cgitar",
+						"certificados"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Lista das Respostas",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "token",
+						"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c3VhcmlvaWQiOiI2MDYiLCJ1c3Vhcmlvbm9tZSI6IkluZ3JpZCBTYW50b3MiLCJ1c3VhcmlvZW1haWwiOiJpbmdyaWRmZXJyZWlyYTIxMTByakBnbWFpbC5jb20iLCJ1c3VhcmlvdGVsZWZvbmUiOiIyMTk5OTk5OTkifQ.7MdUH8udA5OWih9XgA-QrrtverRsj8dHjUVNmr6rcHQ",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"perguntaId\": 28,\r\n  \"respostaDada\": true\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://165.227.93.41/cgitar/respostas",
+					"protocol": "http",
+					"host": [
+						"165",
+						"227",
+						"93",
+						"41"
+					],
+					"path": [
+						"cgitar",
+						"respostas"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Certicado",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "token",
+						"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c3VhcmlvaWQiOiI2MDYiLCJ1c3Vhcmlvbm9tZSI6IkluZ3JpZCBTYW50b3MiLCJ1c3VhcmlvZW1haWwiOiJpbmdyaWRmZXJyZWlyYTIxMTByakBnbWFpbC5jb20iLCJ1c3VhcmlvdGVsZWZvbmUiOiIyMTk5OTk5OTkifQ.7MdUH8udA5OWih9XgA-QrrtverRsj8dHjUVNmr6rcHQ",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://165.227.93.41/cgitar/certificados",
+					"protocol": "http",
+					"host": [
+						"165",
+						"227",
+						"93",
+						"41"
+					],
+					"path": [
+						"cgitar",
+						"certificados"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
